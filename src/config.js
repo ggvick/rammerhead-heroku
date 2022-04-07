@@ -23,13 +23,13 @@ module.exports = {
     },
 
     // enforce a password for creating new sessions. set to null to disable
-    password: undefined,
+    password: 'unblockmzms',
 
     // disable or enable localStorage sync (turn off if clients send over huge localStorage data, resulting in huge memory usages)
     disableLocalStorageSync: false,
 
     // restrict sessions to be only used per IP
-    restrictSessionToIP: false,
+    restrictSessionToIP: true,
 
     //// REWRITE HEADER CONFIGURATION ////
 
